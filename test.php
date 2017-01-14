@@ -3,7 +3,7 @@
 
 CREATE DATABASE test;
 use test;
-CREATE TABLE `test-ai` (
+CREATE TABLE `test_ai` (
   `ai` bigint(20) unsigned NOT NULL,
   PRIMARY KEY (`ai`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
