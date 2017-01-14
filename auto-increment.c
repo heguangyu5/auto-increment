@@ -11,7 +11,6 @@ static long init_value = 0;
 module_param(init_value, long, 0);
 
 struct proc_dir_entry *ai_file;
-#define U64_STR_LEN 21
 
 static int inc(struct seq_file *m, void *v)
 {
